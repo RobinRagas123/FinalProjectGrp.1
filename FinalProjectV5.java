@@ -39,7 +39,9 @@ public class FinalProjectV5 {
           double interpay = sc.nextDouble();
           double prinpay = monpay - interpay;
           System.out.println("Principal Pay: " + prinpay);
-            }       
+            } else {
+                System.out.println("Invalid mode, try again");
+            }
        }
        while (main == 0);
     }

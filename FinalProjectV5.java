@@ -25,6 +25,13 @@ public class FinalProjectV5 {
           int nod = sc.nextInt();
           double bal = prin - (monpay * nod);
           System.out.println("Balance is: " + bal);
+                System.out.println("Try again?");
+                String decide = sc.nextLine();
+                    if (decide == Y){
+                        while (main == 0);
+                    } else if (decide == N) {
+                        System.out.println("Thank you for trying our prototype!");
+                    }
             } else if (mode == 2){
                 System.out.println ("Enter balance: ");
           double bal = sc.nextDouble();
@@ -32,6 +39,13 @@ public class FinalProjectV5 {
           double i = sc.nextDouble();
           double interpay = bal * i;
           System.out.println("Interest pay: " + interpay);
+            System.out.println("Try Again?")
+            String decide =sc.nextLine();
+                if (decide == Y){
+                    while (main == 0);
+                } else if (decide == N){
+                    System.out.println("Thank you for trying out prototype!");
+                }
             } else if (mode == 3){
                  System.out.println("Enter Monthly payment: ");
           double monpay = sc.nextDouble();
@@ -39,11 +53,9 @@ public class FinalProjectV5 {
           double interpay = sc.nextDouble();
           double prinpay = monpay - interpay;
           System.out.println("Principal Pay: " + prinpay);
-            } else {
-                System.out.println("Invalid mode, try again");
-            }
+                System.out.println
+            } 
        }
-       while (main == 0);
     }
     
 }

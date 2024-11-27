@@ -27,7 +27,7 @@ public class FinalPRojectv54 {
            System.out.println();
            int mode = sc.nextInt();
            System.out.println();
-            switch (mode) {
+              switch (mode) {
               case 1 ->                   {
                   
                       System.out.println("Enter Principal amount: ");
